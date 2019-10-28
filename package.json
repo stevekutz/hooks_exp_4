@@ -2,5 +2,19 @@
   "name": "hooks_exp_4",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "react-dom": "^16.11.0",
+    "react-loader-spinner": "^3.1.4",
+    "react-rainbow-components": "^1.8.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.2.0",
+    "react-spinners-kit": "^1.9.0",
+    "reactn": "^2.2.4",
+    "reactn-devtools": "^1.1.0",
+    "redux": "^4.0.4",
+    "semantic-ui-react": "^0.88.1",
+    "styled-components": "^4.4.0"
+  }
 }
