@@ -39,14 +39,17 @@ const getListStyle = isDraggingOver => ({
   overflow: 'auto',
 });
 
-class StateFullHorzList extends Component {
-  constructor() {
-    super();
-    this.state = {
-      items: getItems(6),
-    };
-    this.onDragEnd = this.onDragEnd.bind(this);
-  }
+function HooksHorz () {
+    
+
+
+    //   constructor(props) {
+//     super(props);
+//     this.state = {
+//       items: getItems(6),
+//     };
+//     this.onDragEnd = this.onDragEnd.bind(this);
+//   }
 
   onDragEnd(result) {
     // dropped outside the list
@@ -103,4 +106,4 @@ class StateFullHorzList extends Component {
   }
 }
 
-export default StateFullHorzList;
+export default HooksHorz;
